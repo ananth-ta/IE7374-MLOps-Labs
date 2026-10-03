@@ -68,7 +68,10 @@ python -m unittest -v test.test_unittest
 ```
 
 ## CI Results
-<!-- TODO after first push: add status badges / screenshot of passing GitHub Actions runs -->
+[![Lab 1 - Testing with Pytest](https://github.com/ananth-ta/IE7374-MLOps-Labs/actions/workflows/lab1_pytest.yml/badge.svg)](https://github.com/ananth-ta/IE7374-MLOps-Labs/actions/workflows/lab1_pytest.yml)
+[![Lab 1 - Python Unittests](https://github.com/ananth-ta/IE7374-MLOps-Labs/actions/workflows/lab1_unittest.yml/badge.svg)](https://github.com/ananth-ta/IE7374-MLOps-Labs/actions/workflows/lab1_unittest.yml)
+
+Both workflows run on every push or pull request to `main` that touches `Lab1/`. The pytest workflow also uploads a JUnit XML report (`lab1-pytest-results`) as a build artifact, viewable on each run's summary page.
 
 ## Acknowledgements
 Edge-case review, refactoring and test expansion assisted by Claude Code (Anthropic).
