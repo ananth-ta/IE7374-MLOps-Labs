@@ -1,0 +1,22 @@
+MLOPs_Syllabus_IE7374.pdf
+
+# Virtual environments
+lab_*/
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+pytest-report.xml
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.obsidian/
+.DS_Store
+Thumbs.db
