@@ -1,5 +1,7 @@
 # Lab 1 - GitHub Actions (Testing with Pytest & Unittest)
 
+> **Archived copy, kept as submitted for Lab Assignment 1.** The maintained version is at [ananth-ta/MLOps/Labs/Github_Labs/Lab1](https://github.com/ananth-ta/MLOps/tree/main/Labs/Github_Labs/Lab1).
+
 Based on [Github_Labs/Lab1](https://github.com/raminmohammadi/MLOps/tree/main/Github_Labs/Lab1) from the course repo. The original lab instructions are kept in [instructions.md](instructions.md).
 
 ## Overview
